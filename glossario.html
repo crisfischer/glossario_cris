@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html >
+
+   <head>
+       <meta charset="UTF-8">
+       <title>Glossário</title>
+
+       
+
+
+       <script type="text/javascript" src="jquery-3.2.1.js"></script>
+
+       <ul>
+          <li><a class="videoSinais" href="https:www.youtube.com/watch?v=UvWb6tBUx6w&index=1&list=PL728A4516E8628D08" title="video1">Vídeo 1</a></li>
+          <li><a class="videoSinais" href="https:www.youtube.com/watch?v=pXm5ify_64U&list=PL728A4516E8628D08&index=3" title="video2">Vídeo 2</a><li>
+         <li><a class="videoSinais" href="https:www.youtube.com/watch?v=1dv6xMhzAAs&list=PL728A4516E8628D08&index=6" title="video3">Vídeo 3</a></li>
+       </ul>
+
+       <div class="video-placeholder">
+         <iframe width="820" height="380" frameborder="0" allowfullscreen="" src='video'></iframe>
+       </div>
+
+       <div id="div_video">
+        <h5>Vídeo 1</h5>
+       <video id="video_ctrl" width="100%" autoplay>
+          <source src="https:www.youtube.com/watch?v=UvWb6tBUx6w&index=1&list=PL728A4516E8628D08" type="video/mp4" />
+        </video>
+      </div>
+
+
+      <div id="evento">
+       
+       <div id="codigo"
+
+       $('videoSinais').on('hide.bs.modal', function setvideo(event) {
+
+       var src = $(this).data('next-video'); <!-- armazena dados --> 
+    
+        $('#div_video').html('<h5>Vídeo 2</h5><video id="video_ctrl1" autoplay><source src="' + src + '" type="video/mp4"></video>');
+   
+       
+       $('#video_ctrl1').on('ended', function(e) {
+      
+     
+      $('#myModal1').modal('show');
+        
+        }); 
+     
+     });
+
+        $('#video_ctrl').on('ended', function (e) {
+       
+        $('#myModal').modal('show');
+      });
+      
+      </div>
+
+
+       </script>
+
+       <style>
+
+    
+
+	h1{
+        text-align: center; 
+		color:#800080;
+	}
+
+	h2{
+        text-align: center; 
+		color:#4B0082;
+	}
+
+	
+	</style>
+   
+   </head>
+  
+  
+   <body>
+       <h1>Glossário</h1>
+
+       <h2>Procurar vídeos</h2>
+
+       <div id="divBusca">
+         
+         <div id="divBusca">
+          
+            <input type="text" id="txtBusca" placeholder="Buscar"/>
+            <button id="btnBusca">Buscar</button>
+       
+        </div>
+      
+      </div>
+
+       
+      
+
+   </body>
+
+
+
+
+
+
+
+
+</html>
