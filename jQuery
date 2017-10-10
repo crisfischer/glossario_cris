@@ -1,0 +1,23 @@
+jQuery
+
+
+ $('videoSinais').on('hide.bs.modal', function setvideo(event) {
+
+       var src = $(this).data('next-video'); 
+    
+        $('#div_video').html('<h5>Vídeo 2</h5><video id="video_ctrl1" autoplay><source src="' + src + '" type="video/mp4"></video>');
+   
+       
+       $('#video_ctrl1').on('ended', function(e) {
+      
+     
+      $('#myModal1').modal('show');
+        
+        }); 
+     
+     });
+
+        $('#video_ctrl').on('ended', function (e) {
+       
+        $('#myModal').modal('show');
+      });
