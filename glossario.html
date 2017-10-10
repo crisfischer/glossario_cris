@@ -2,23 +2,31 @@
 <html >
 
    <head>
+   
+   <script  src="jquery-3.2.1.js"></script>
+
        <meta charset="UTF-8">
        <title>Glossário</title>
 
-       <ul class="video">
+      
+   </head>
+  
+  
+   <body>
+       <h1>Glossário</h1>
 
+        <div id="corpo">
+         
 
-       
+         </div>
 
-       </ul>
+         <div id="video">
 
-       
+       </div>
 
+   </body>
 
-       <script  src="jquery-3.2.1.js"></script>
-
-
-       <script type="text/javascript">
+         <script type="text/javascript">
 
           $(document).ready(function(){
           
@@ -32,88 +40,53 @@
        
 
             
-          for(i=0;i<=2;i++){
+          for(var i=0;i<videos.length;i++){
+
+
+            $("#corpo").append("<p><a id='"+i+"' href='#'>Videos "+i+"</a></p>");
 
             
-                  $(".video").html("<li>"+videos[i]+"</li>");
+              $("#"+i).click(function(){
+
+                var x=$(this).attr("id");
+
+              //  alert("teste"+$(this).attr("id"));
+                
+                 $("#video").html(videos[x]);
+                
+                  
+             });
                 
 
 
           }
+        
+             
 
-
-       });
-
-
-            
-                
-
-
-          
-
-
-
-
-
-       
-
-         
-
-
-    
+        });
 
        </script>
 
        <style>
 
-    
+    li{
 
-	h1{
+   display: none;
+
+    }
+
+  h1{
         text-align: center; 
-		color:#800080;
-	}
+    color:#800080;
+  }
 
-	h2{
+  h2{
         text-align: center; 
-		color:#4B0082;
-	}
+    color:#4B0082;
+  }
 
-	
-	</style>
-   
-   </head>
   
-  
-   <body>
-       <h1>Glossário</h1>
-
-       <h2>Procurar vídeos</h2>
-
-       <div id="divBusca">
-         
-         <div id="divBusca">
-          
-            <input type="text" id="txtBusca" placeholder="Buscar"/>
-            <button id="btnBusca">Buscar</button>
+  </style>
 
 
-
-            
-       
-        </div>
-      
-      </div>
-
-       
-      
-
-   </body>
-
-
-
-
-
-
-
-
-</html>
+   </html>
