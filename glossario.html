@@ -2,91 +2,32 @@
 <html >
 
    <head>
-   
-   <script  src="jquery-3.2.1.js"></script>
-
+       <script  src="jquery-3.2.1.js"></script>
        <meta charset="UTF-8">
        <title>Glossário</title>
-
-      
    </head>
-  
-  
    <body>
        <h1>Glossário</h1>
 
-        <div id="corpo">
-         
-
-         </div>
-
-         <div id="video">
-
-       </div>
-
+        <div id="corpo"></div>
+        <div id="video"></div>
    </body>
 
-         <script type="text/javascript">
+<script type="text/javascript" src="global.js"> </script>
 
-          $(document).ready(function(){
-          
-            
-         
-        var videos = [];
-
-        videos[0]= "<iframe width='854' height='480' src='https://www.youtube.com/embed/UvWb6tBUx6w?list=PL728A4516E8628D08' frameborder='0' allowfullscreen></iframe>";
-        videos[1]= "<iframe width='854' height='480' src='https://www.youtube.com/embed/pXm5ify_64U?list=PL728A4516E8628D08' frameborder='0' allowfullscreen></iframe>";
-        videos[2]= "<iframe width='854' height='480' src='https://www.youtube.com/embed/MFGRBKd5Sns?list=PL728A4516E8628D08' frameborder='0' allowfullscreen></iframe>";
-       
-
-            
-          for(var i=0;i<videos.length;i++){
-
-
-            $("#corpo").append("<p><a id='"+i+"' href='#'>Videos "+i+"</a></p>");
-
-            
-              $("#"+i).click(function(){
-
-                var x=$(this).attr("id");
-
-              //  alert("teste"+$(this).attr("id"));
-                
-                 $("#video").html(videos[x]);
-                
-                  
-             });
-                
-
-
-          }
-        
-             
-
-        });
-
-       </script>
-
-       <style>
-
+<style>
     li{
-
-   display: none;
-
+            display: none;
     }
-
-  h1{
+    h1{
         text-align: center; 
-    color:#800080;
-  }
-
-  h2{
+        color:#800080;
+    }
+    h2{
         text-align: center; 
-    color:#4B0082;
-  }
-
-  
-  </style>
+        color:#4B0082;
+    }
+</style>
 
 
    </html>

@@ -1,1 +1,0 @@
-# glosssario_cris
