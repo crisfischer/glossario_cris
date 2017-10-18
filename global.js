@@ -4,37 +4,37 @@ $(document).ready(function(){
         value: "Antiderrapante",
         label: "antiderrapante",
         desc: "Antiderrapante para não cair",
-        video: "antiderrapante_sinal.mp4"
+        video_: "antiderrapante_sinal.mp4"
         },
         {
         value: "Azulejo",
         label: "Azulejo",
         desc: "Azulejo para revestir a casa",
-        video: "azulejo_sinal.mp4",
+        video_: "azulejo_sinal.mp4",
         },
         {
         value: "Banheira",
         label: "banheira",
         desc: "Banheira para tomar banho",
-        video: "banheira_sinal.mp4",
+        video_: "banheira_sinal.mp4",
         },
         {
         value: "Boneca",
         label: "boneca",
         desc: "Boneca para brincar",
-        video: "boneca_sinal.mp4",
+        video_: "boneca_sinal.mp4",
         },
         {
         value: "Coluna",
         label: "coluna",
         desc: "Coluna do ser humano",
-        video: "coluna_sinal.mp4",
+        video_: "coluna_sinal.mp4",
         },
         {
         value: "Janela",
         label: "janela",
         desc: "Janela de casa",
-        video: "janela_sinal.mp4",
+        video_: "janela_sinal.mp4",
         }
     ];
 
@@ -42,10 +42,15 @@ $(document).ready(function(){
 
 for(var i=0;i<videos.length;i++){
 
+    
      $("#corpo").append("<p><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></p>");
-     $("#chama_video").click(function(){
-     var x=$(this).attr('src');
-     $("#video").source('src');
+     
+     var x =Number(i);
+     $("#"+videos[i]['value']).click(function(){
+     //var x = $(this).attr("id");
+     //var x = videos[i]['video_'];
+     alert(x);
+     $("#custom_video_play").attr("src",videos[Number(i)]["video_"]);
     });
 
    
