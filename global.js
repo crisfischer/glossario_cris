@@ -49,7 +49,7 @@ $(document).ready(function(){
 
     function trocaVideo(event) {
         $("#video_play").attr("src","videos/" + videos[event.data.id]["video_"]);
-        $("#video_play")[0].load();
+        $("#video_play")[0].play();
     }
 
 });
