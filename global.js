@@ -40,20 +40,16 @@ $(document).ready(function(){
 
 
 
-for(var i=0;i<videos.length;i++){
+    for(var i=0;i<videos.length;i++){
+         $("#corpo").append("<p><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></p>");
+         $("#"+videos[i]['value']).click({id:i}, trocaVideo);
+    };
 
-    
-     $("#corpo").append("<p><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></p>");
-     
-     var x =Number(i);
-     $("#"+videos[i]['value']).click(function(){
-     //var x = $(this).attr("id");
-     //var x = videos[i]['video_'];
-     alert(x);
-     $("#custom_video_play").attr("src",videos[Number(i)]["video_"]);
-    });
 
-   
 
-};
+    function trocaVideo(event) {
+        $("#video_play").attr("src","videos/" + videos[event.data.id]["video_"]);
+        $("#video_play")[0].load();
+    }
+
 });
