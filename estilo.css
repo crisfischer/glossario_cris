@@ -1,6 +1,4 @@
-li{
-            display: none;
-    }
+
     h1 {
         text-align: center; 
         color:#800080;
@@ -10,6 +8,7 @@ li{
         color:#4B0082;
     }
    #divBusca{
+  
   background-color:#E0EEEE;
   border:solid 2px #5F9EA0;
   border-radius:10px;
@@ -29,7 +28,7 @@ li{
 
 #btnBusca{
   border:none;
-  float:left;
+  float:right;
   height:32px;
   border-radius:0 7px 7px 0;
   width:70px;

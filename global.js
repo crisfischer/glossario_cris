@@ -51,5 +51,8 @@ $(document).ready(function(){
         $("#video_play").attr("src","videos/" + videos[event.data.id]["video_"]);
         $("#video_play")[0].play();
     }
+    $(".#").sideNav();
 
 });
+// Initialize collapse button
+  $(".button-collapse").sideNav('material-icons');
