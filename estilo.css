@@ -39,3 +39,18 @@
 #divBusca img{
   float:right;
 }
+#video_play{
+
+    width:400px;
+    height:400px;
+    position:absolute;
+    top:30%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+    align-self: center;
+  }
+  #+videos[i]['value']+{
+
+    color:#800080;
+  }

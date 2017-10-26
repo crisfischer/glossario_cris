@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 
     for(var i=0;i<videos.length;i++){
-         $("#corpo").append("<p><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></p>");
+         $("#menu_video").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
          $("#"+videos[i]['value']).click({id:i}, trocaVideo);
     };
 
@@ -51,8 +51,10 @@ $(document).ready(function(){
         $("#video_play").attr("src","videos/" + videos[event.data.id]["video_"]);
         $("#video_play")[0].play();
     }
-    $(".#").sideNav();
+    
 
 });
-// Initialize collapse button
-  $(".button-collapse").sideNav('material-icons');
+$(function(){
+     $(".button-collapse").sideNav();
+ });
+

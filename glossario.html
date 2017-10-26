@@ -4,10 +4,12 @@
    <head>
        <meta charset="UTF-8">
 
-      <script type="text/javascript" src="jquery-3.2.1.js"></script>
-       <script type="text/javascript" src="global.js"></script>
-       <link rel="stylesheet" href="estilo.css" />
-       
+         <script type="text/javascript" src="jquery-3.2.1.js"></script>
+         <script type="text/javascript" src="global.js"></script>
+         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+      <link rel="stylesheet" href="estilo.css" />
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link rel="stylesheet" type="text/css"  href="materialize/css/materialize.min.css"  media="screen,projection"/>
       <!--Let browser know website is optimized for mobile-->
@@ -16,9 +18,59 @@
       
   </head>
   <body>
-       <nav>
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Glossário</a>
+        
+         <div class="row">
+         <div id="corpo"></div>
+
+      <div class="col s0">
+      <ul id="nav-mobile" class="side-nav fixed" style="transform: translateX(0px);">
+        <li class="logo"><a id="logo-container"  class="brand-logo"></a></li>
+        <li class="search">
+         
+          <div class="search-wrapper card">
+            <input id="search"><i class="material-icons">search</i>
+             <div class="search-results"></div>
+          </div>
+        </li>
+        
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li class="bold"><a class="collapsible-header waves-effect waves-teal">Cumprimentos</a>
+              <div class="collapsible-body">
+                <ul id="menu_video">
+                
+                  
+                  
+                </ul>
+              </div>
+            </li>
+            <li class="bold"><a class="collapsible-header waves-effect waves-teal">Disciplinas</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a  src="banheira_sinal.mp4">Banheira</a></li>
+                  <li><a src="boneca_sinal.mp4">Boneca</a></li>
+                </ul>
+              </div>
+            </li>
+            <li  class="bold"><a class="collapsible-header waves-effect waves-teal">Animais</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a src="coluna_sinal.mp4">Coluna</a></li>
+                  <li><a  id="corpo" src="janela_sinal.mp4">Janela</a></li>
+  
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+        
+      </div>
+
+      <div class="col s12">                    
+        <nav>
+       <div class="nav-wrapper   pink lighten-1" >
+            <a href="#" class="brand-logo center">Glossário de Libras</a>
             <ul id="nav-mobile" class="right">
               <li><a href="http://www.glossario.libras.ufsc.br/index/historia">História</a></li>
               <li><a href="http://www.glossario.libras.ufsc.br/index/equipe">Time</a></li>
@@ -26,39 +78,17 @@
             </ul>
           </div>
        </nav>
-       
+        
+      </div>
+
+      </div>
+     </ul>
         <div id="corpo"></div>
         <div id="video"></div>
-        <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="Buscar vídeo"/>
-        </div>
         <div id="chama_video">
-            <video id="video_play" width="400" controls="controls">
+            <video id="video_play" width="400"   controls="controls">
               <source src="videos/antiderrapante_sinal.mp4" type="video/mp4">
             </video>
         </div>
-        
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-   <ul id="slide-out" class="side-nav">
-      <li><div class="user-view">
-          <div class="background">
-          <img src="images/office.jpg">
-          </div></div>  
-          <a href="#!user"><img class="circle" src="LIBRAS-550.jpg"></a>
-          <a href="#!name"><span class="white-text name">Glossário</span></a>
-          <a href="#!site"><span class="white-text email">www.glossario.libras.ufsc.br</span></a>
-        </div>
-      </li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-  </ul>
-  
-     
-            
-
-
-  </body> 
+ </body> 
 </html>
