@@ -7,24 +7,7 @@
         text-align: center; 
         color:#4B0082;
     }
-   #divBusca{
-  
-  background-color:#E0EEEE;
-  border:solid 2px #5F9EA0;
-  border-radius:10px;
-  width:300px;
-  height:32px;
-}
-
-#txtBusca{
-  float:left;
-  background-color:transparent;
-  padding-left:5px; 
-  font-size:18px;
-  border:none;
-  height:32px;
-  width:191px;
-}
+ 
 
 #btnBusca{
   border:none;
@@ -67,3 +50,43 @@
     background-color: #e0e0e0;
     font-family: "Times New Roman", Georgia, Serif;
 }
+#listas{
+
+  position: relative;
+  top:120px;
+
+}
+i{
+  position:absolute;
+  z-index:3;
+  top:30px;
+}
+
+
+#nav-mobile li.search {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 120px;
+    margin-top: 1px;
+    padding: 1px 0 0 0;
+    z-index: 2;
+}
+#nav-mobile li.search
+
+
+
+.search-wrapper input{
+position:relative;
+top:20px;
+left: 25px;
+
+}
+#botoes{
+float: right;
+margin: 0 auto;
+
+
+
+}
+
