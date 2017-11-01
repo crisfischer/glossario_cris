@@ -28,11 +28,13 @@
     height:400px;
     position:absolute;
     top:30%;
-    left:50%;
+    left:45%;
     margin-top:-50px;
     margin-left:-50px;
     align-self: center;
   }
+   
+
   #rodape{
 
     float:center;
@@ -72,21 +74,26 @@ i{
     padding: 1px 0 0 0;
     z-index: 2;
 }
-#nav-mobile li.search
-
-
-
 .search-wrapper input{
 position:relative;
 top:20px;
 left: 25px;
 
 }
-#botoes{
-float: right;
-margin: 0 auto;
 
 
 
+#tabs-swipe-demo{
+    
+    
+    align-self: center;
 }
+#test-swipe-1{
+  align-self: center;
+}
+#test-swipe-2{
+  align-self: center;
+}
+
+
 

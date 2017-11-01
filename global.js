@@ -52,9 +52,11 @@ $(document).ready(function(){
         $("#video_play")[0].play();
     }
     
-
-});
-$(function(){
-     $(".button-collapse").sideNav();
- });
+    });
+    $(function(){
+         $(".button-collapse").sideNav();
+     });
+     $(document).ready(function(){
+        $('ul.tabs').tabs('select_tab', 'tab_id');
+      });
 

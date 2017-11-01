@@ -18,6 +18,7 @@
       
   </head>
   <body>
+
         
          <div class="row">
          
@@ -26,10 +27,7 @@
         <li class="logo"><a id="logo-container" href="http://www.glossario.libras.ufsc.br/" class="brand-logo"><img id="front-page-logo" type="image/svg+xml" src="logolibras.png" > 
             </img></a></li>
         
-
-            
-        
-        <li class="search">
+         <li class="search">
          <div class="search-wrapper ">
            <i class="material-icons">search</i>
           <input id="search"/>
@@ -67,9 +65,10 @@
         
       </div>
 
+
       <div class="col s12">                    
         <nav>
-       <div class="nav-wrapper    blue darken-2" >
+          <div class="nav-wrapper    blue darken-2" >
             <a href="#" class="brand-logo center">Glossário de Libras</a>
             <ul id="nav-mobile" class="right">
               <li><a href="http://www.glossario.libras.ufsc.br/index/historia">História</a></li>
@@ -83,29 +82,34 @@
 
       </div>
      </ul>
+      
+      
         <div id="corpo"></div>
         <div id="video"></div>
-       
-       <ul id="botoes">
-       <li>
-       <input id="botao1" name="" type="button"  value="Conceito">
-       <input id="botao2" name="" type="button"  value="Sinal">
-       </li>
-       </ul>
-        <div id="chama_video">
-              <video id="video_play" width="400"   controls="controls">
-              <source src="videos/antiderrapante_sinal.mp4" type="video/mp4">
-               <source src="videos/antiderrapante_sinal.mp4" type="video/mp4">
-            </video>
+      
+      <div class="container">
+          <div class="row">
+                <div class="col s6">
+                     <ul id="tabs-swipe-demo" class="tabs">
+                        <li class="tab col s3"><a class="active" href="#test-swipe-1">Sinal</a></li>
+                        <li class="tab col s3"><a href="#test-swipe-2">Conceito</a></li>
+                     </ul>
+                     
+                     <div id="test-swipe-1" class="col s12  grey lighten-4">Sinal</div>
+                     <div id="test-swipe-2" class="col s12  grey lighten-4">Conceito</div>
+                    </ul>
+                </div>
+          </div>
+      </div>
+            <div id="chama_video">
+                  <video id="video_play" width="400"   controls="controls">
+                     <source src="videos/antiderrapante_sinal.mp4" type="video/mp4">
+                  </video>
+            </div>
             
-        </div>
 
-        
-        
-         
-        <footer class="brand-logo center"> <p><img src="logolibras.png" alt="Logo libras" title="Logo libras" width="30" height="30" float:right;/>&copy; Copyright 2017   glossario.libras.ufsc.br<p>
-        
-        </footer>
+         <footer class="brand-logo center"> <p><img src="logolibras.png" alt="Logo libras" title="Logo libras" width="30" height="30" float:right;/>&copy; Copyright 2017   glossario.libras.ufsc.br<p>
+         </footer>
 
  </body> 
 </html>
