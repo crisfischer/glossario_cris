@@ -1,50 +1,24 @@
 
-    h1 {
-        text-align: center; 
-        color:#800080;
-    }
-    #videos{
-        text-align: center; 
-        color:#4B0082;
-    }
- 
-
-#btnBusca{
-  border:none;
-  float:right;
-  height:32px;
-  border-radius:0 7px 7px 0;
-  width:70px;
-  font-weight:bold;
-  background:#5F9EA0;
+h1 {
+  text-align: center; 
+  color:#800080;
 }
-
+#videos{
+  text-align: center; 
+  color:#4B0082;
+}
 #divBusca img{
   float:right;
 }
-#video_play{
-
-    width:400px;
-    height:400px;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-50px;
-    margin-left:-50px;
-    align-self: center;
-  }
-   
-
-  #rodape{
-
-    float:center;
+#rodape{
+   float:center;
   }
    article {
     padding-bottom: 30px; 
     width: 900px; 
     margin: 0 0 60px; 
 }
-   footer {
+  footer {
     position: absolute; 
     bottom: 0px; 
     width: 100%; 
@@ -53,47 +27,62 @@
     font-family: "Times New Roman", Georgia, Serif;
 }
 #listas{
-
   position: relative;
   top:120px;
-
 }
 i{
   position:absolute;
   z-index:3;
   top:30px;
 }
-
-
 #nav-mobile li.search {
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 120px;
-    margin-top: 1px;
-    padding: 1px 0 0 0;
-    z-index: 2;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 120px;
+  margin-top: 1px;
+  padding: 1px 0 0 0;
+  z-index: 2;
 }
 .search-wrapper input{
-position:relative;
-top:20px;
-left: 25px;
+  position:relative;
+  top:20px;
+  left: 25px;
 
 }
-
-
-
+.container{
+     
+  width:400px;
+  height:400px;
+  position: absolute;
+  left: 40%;
+  right: 50%;
+  top:150px;
+}
 #tabs-swipe-demo{
-    
-    
-    align-self: center;
+  border: 2px solid #eeeeee;
+  top:50px;
 }
 #test-swipe-1{
-  align-self: center;
+  width:407px;
+  height:385px;
+  position: relative;
+  top:50px;
 }
 #test-swipe-2{
-  align-self: center;
+  width:407px;
+  height:400px;
+  position: relative;
+  top:50px;
 }
-
-
+#video_play_sinal{
+  width:380px;
+  height:380px;
+  top:50px;
+}
+#video_play{
+  width:380px;
+  height:380px;
+  top:50px;
+}
 

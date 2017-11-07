@@ -44,19 +44,16 @@ $(document).ready(function(){
          $("#menu_video").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
          $("#"+videos[i]['value']).click({id:i}, trocaVideo);
     };
-
-
-
     function trocaVideo(event) {
-        $("#video_play").attr("src","videos/" + videos[event.data.id]["video_"]);
-        $("#video_play")[0].play();
+        $("#video_play_sinal").attr("src","videos/" + videos[event.data.id]["video_"]);
+        $("#video_play_sinal")[0].play();
     }
-    
     });
     $(function(){
          $(".button-collapse").sideNav();
      });
-     $(document).ready(function(){
+    
+    $(document).ready(function(){
         $('ul.tabs').tabs('select_tab', 'tab_id');
-      });
+    });
 
