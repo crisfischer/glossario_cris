@@ -48,41 +48,41 @@ i{
   position:relative;
   top:20px;
   left: 25px;
-
 }
-.container{
-     
-  width:400px;
-  height:400px;
+.container{  
+  width:420px;
+  height:700px;
   position: absolute;
-  left: 40%;
+  left: 35%;
   right: 50%;
-  top:150px;
+  top:100px;
 }
 #tabs-swipe-demo{
   border: 2px solid #eeeeee;
   top:50px;
 }
 #test-swipe-1{
-  width:407px;
-  height:385px;
+  width:487px;
+  height:450px;
   position: relative;
   top:50px;
 }
 #test-swipe-2{
-  width:407px;
-  height:400px;
+  width:487px;
+  height:450px;
   position: relative;
   top:50px;
 }
 #video_play_sinal{
-  width:380px;
-  height:380px;
-  top:50px;
+  width:465px;
+  height:450px;
+  top:20px;
+  left: 0;
+  
 }
 #video_play_conceito{
-  width:380px;
-  height:380px;
-  top:50px;
+  width:465px;
+  height:450px;
+  top:20px;
+  left: 0px;
 }
-

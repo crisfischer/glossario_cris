@@ -33,6 +33,45 @@
           </div>
       </div>
 
+
+
+
+
+ <li id="listas" class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+      <li class="classifica"  ><a class="collapsible-header waves-effect waves-teal">Letras Libras</a>
+        <div class="collapsible-body">
+          <ul id="menu_videoLetras"></ul>
+        </div>
+        </li>
+        </ul>
+      </li>
+     <li class="classifica"><a class="collapsible-header waves-effect waves-teal">Arquitetura</a>
+        <div class="collapsible-body">
+         <ul id="menu_videoArquitetura"></ul>
+        </div>
+      </li>
+      <li  class="classifica"><a class="collapsible-header waves-effect waves-teal">Psicologia</a>
+        <div class="collapsible-body">
+        <ul id="menu_videoPsicologia"></ul>
+         <ul>
+            <li><a  src="coluna_sinal.mp4">Coluna</a></li>
+            <li><a  id="corpo" src="janela_sinal.mp4">Janela</a></li>
+          </ul> 
+        </div>
+      </li>
+      </ul>
+    </li>
+  </ul>
+    
+  </div>
+
+   
+        $("#menu_video").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
+        $("#"+videos[i]['value']).click({id:i}, trocaVideo);
+
+      
+
                      <ul id="tabs-swipe-demo" class="tabs">
                         <li class="tab col s4"><a class="active" href="#test-swipe-1">Sinal</a></li>
                         <li class="tab col s4"><a href="#test-swipe-2">Conceito</a></li>

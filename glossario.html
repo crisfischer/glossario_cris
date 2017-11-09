@@ -26,31 +26,33 @@
       <input id="search"/>
     </div>
   </li>
-    <li id="listas" class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-     
-      <li class="classifica"  ><a class="collapsible-header waves-effect waves-teal">Letras</a>
-        <div class="collapsible-body">
-          <ul id="menu_video"></ul>
-        </div>
-      </li>
+  <div id="listas" class="no-padding">
+    <ul class="collapsible collapsible-accordion">
+        <li >
+          <a  class="collapsible-header waves-effect waves-teal">
+           <div id="classificaLibras"></div>
+          </a>
+          <div class="collapsible-body">
+            <ul id="menu_videoLetras"></ul>
+          </div>
+        </li>
       <li class="classifica"><a class="collapsible-header waves-effect waves-teal">Arquitetura</a>
         <div class="collapsible-body">
-         
+         <ul id="menu_videoArquitetura"></ul>
         </div>
       </li>
       <li  class="classifica"><a class="collapsible-header waves-effect waves-teal">Psicologia</a>
         <div class="collapsible-body">
-         <ul>
-            <li><a  src="coluna_sinal.mp4">Coluna</a></li>
-            <li><a  id="corpo" src="janela_sinal.mp4">Janela</a></li>
-          </ul> 
+          <ul id="menu_videoPsicologia"></ul>
         </div>
       </li>
-      </ul>
-    </li>
-  </ul>  
+    </ul>
   </div>
+    
+    </ul>
+    </li>
+    </ul>  
+    </div>
   <div class="col s12">                    
     <nav>
       <div class="nav-wrapper    blue darken-2" >
@@ -66,17 +68,16 @@
       </div>
     <div id="corpo"></div>
     <div id="video"></div>
-
   <div class="container">
     <div class="row">
-      <div class="col s5">
+      <div class="col s6">
       <div id="nomes"></div>
         <ul id="tabs-swipe-demo" class="tabs">
           <li class="tab col s3"><a class="active" href="#test-swipe-1">Sinal</a></li>
-          <li class="tab col s4"><a href="#test-swipe-2">Conceito</a></li>
+          <li class="tab col s8"><a href="#test-swipe-2">Conceito</a></li>
         </ul>
       <div id="test-swipe-1" class="col s12  grey lighten-4">
-        <video id="video_play_sinal" width="400" controls="controls">
+        <video id="video_play_sinal" controls="controls">
           <source src="videos/antiderrapante_sinal.mp4" type="video/mp4">
         </video>
       </div>
