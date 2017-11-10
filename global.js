@@ -50,23 +50,23 @@
         }
     ];
     var areas = ['Letras Libras','Arquitetura','Pscicologia'];
-        for(var j=0;j<areas.length;j++){
-            if(areas[j]['area'] == 'Letras Libras'){
-            $("#classificaLibras").append(" id='menu_"+areas[j]+"' <a href='#'> "+areas[j]+"</a>");
-            };   
-            if(areas[j]['area'] == 'Arquitetura'){
-            $(".classifica").append(" id='menu_"+areas[j]+"' <a href='#'> "+areas[j]+"</a>");
-            };
-            if(areas[j]['area'] == 'Psicologia'){
-            $(".classifica").append(" id='menu_"+areas[j]+"' <a href='#'> "+areas[j]+"</a>");
-            };
+    for(var j=0;j<areas.length;j++){
+        if(areas[j]['area'] == 'Letras Libras'){
+           $("#classificaLibras").append("<li id='"+areas[j]['value']+"' href='#'> "+areas[j]['area']+"</li>");
+        };   
+        if(areas[j]['area'] == 'Arquitetura'){
+          $(".classificaArquitetura").append("<a id='menu_"+areas[j]+"' <a href='#'> "+areas[j]['area']+"</a>");
+        };
+        if(areas[j]['area'] == 'Psicologia'){
+         $(".classificaPsicologia").append("<a id='menu_"+areas[j]+"' <a href='#'> "+areas[j]['area']+"</a>");
+        };
     };
     for(var i=0;i<videos.length;i++){
         if(videos[i]['area'] == 'Letras Libras'){
-        $("#menu_videoLetras").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
+          $("#menu_videoLetras").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
         };   
         if(videos[i]['area'] == 'Arquitetura'){
-        $("#menu_videoArquitetura").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
+          $("#menu_videoArquitetura").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
         };   
         if(videos[i]['area'] == 'Psicologia'){
         $("#menu_videoPsicologia").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
@@ -78,7 +78,7 @@
         $("#video_play_sinal")[0].play();
         $("#video_play_conceito").attr("src","videos/" + videos[event.data.id]["videoConceito"]);
         $("#video_play_conceito")[0].play();
-        $("#nomes").html("<li><a id='"+videos[event.data.id]['value']+"' href='#'> "+videos[event.data.id]['value']+"</a></li>");
+        $("#nomes").html("<div id='"+videos[event.data.id]['value']+"' href='#'> "+videos[event.data.id]['value']+"</div>");
     };
     
     $(function(){

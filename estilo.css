@@ -59,19 +59,19 @@ i{
 }
 #tabs-swipe-demo{
   border: 2px solid #eeeeee;
-  top:50px;
+  top:70px;
 }
 #test-swipe-1{
   width:487px;
   height:450px;
   position: relative;
-  top:50px;
+  top:70px;
 }
 #test-swipe-2{
   width:487px;
   height:450px;
   position: relative;
-  top:50px;
+  top:70px;
 }
 #video_play_sinal{
   width:465px;
@@ -84,5 +84,12 @@ i{
   width:465px;
   height:450px;
   top:20px;
-  left: 0px;
+  left: 0;
+}
+#nomes{
+  text-align: center; 
+  color: #0d47a1;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  padding: 1px;
 }
