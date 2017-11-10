@@ -49,30 +49,14 @@
         area: "Arquitetura"
         }
     ];
-    var areas = ['Letras Libras','Arquitetura','Pscicologia'];
+    var areas = ['Letras Libras','Arquitetura','Psicologia'];
     for(var j=0;j<areas.length;j++){
-        if(areas[j]['area'] == 'Letras Libras'){
-           $("#classificaLibras").append("<li id='"+areas[j]['value']+"' href='#'> "+areas[j]['area']+"</li>");
-        };   
-        if(areas[j]['area'] == 'Arquitetura'){
-          $(".classificaArquitetura").append("<a id='menu_"+areas[j]+"' <a href='#'> "+areas[j]['area']+"</a>");
-        };
-        if(areas[j]['area'] == 'Psicologia'){
-         $(".classificaPsicologia").append("<a id='menu_"+areas[j]+"' <a href='#'> "+areas[j]['area']+"</a>");
-        };
-    };
-    for(var i=0;i<videos.length;i++){
-        if(videos[i]['area'] == 'Letras Libras'){
-          $("#menu_videoLetras").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
-        };   
-        if(videos[i]['area'] == 'Arquitetura'){
-          $("#menu_videoArquitetura").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
-        };   
-        if(videos[i]['area'] == 'Psicologia'){
-        $("#menu_videoPsicologia").append("<li><a id='"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>");
-        };   
-        $("#"+videos[i]['value']).click({id:i}, trocaVideo);
-    };
+        for(var i=0;i<videos.length;i++){
+           $("#listas").append("<ul><li class='menu_'+areas[j]+"><a class='collapsible-header waves-effect waves-teal'></a>"+areas[j]+"</li></ul>");
+
+            if(videos[i]['area'] == areas[j]){
+              $("#listas").append("<div class="collapsible-body"><ul id='menu_video'+videos[i]['value']+">"+videos[i]['value']+"</ul></div>");
+     };
     function trocaVideo(event) {
         $("#video_play_sinal").attr("src","videos/" + videos[event.data.id]["videoSinal"]);
         $("#video_play_sinal")[0].play();
@@ -89,3 +73,6 @@
     });
     
     });
+<div class="collapsible-body">
+         <ul id="subMenu"></ul>
+        </div>
