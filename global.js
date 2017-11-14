@@ -51,12 +51,15 @@
     ];
     var areas = ['Letras Libras','Arquitetura','Psicologia'];
     for(var j=0;j<areas.length;j++){
-        for(var i=0;i<videos.length;i++){
-           $("#listas").append("<ul><li class='menu_'+areas[j]+"><a class='collapsible-header waves-effect waves-teal'></a>"+areas[j]+"</li></ul>");
-
-            if(videos[i]['area'] == areas[j]){
-              $("#listas").append("<div class="collapsible-body"><ul id='menu_video'+videos[i]['value']+">"+videos[i]['value']+"</ul></div>");
-     };
+        $("#menu").append("<li><a class='collapsible-header waves-effect waves-teal'>"+areas[j]+"</a><div class='collapsible-body' ><ul  id='menu_"+areas[j].replace(' ',"_")+"'>");
+            for(var i=0;i<videos.length;i++){
+                 if(videos[i]['area'] == areas[j]){
+                     $("#menu_"+areas[j].replace(' ',"_")).append("<li><a id='menu_video"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>")
+                 }
+             
+             }
+             $("#menu").append("</ul></div></li>");
+    }
     function trocaVideo(event) {
         $("#video_play_sinal").attr("src","videos/" + videos[event.data.id]["videoSinal"]);
         $("#video_play_sinal")[0].play();
@@ -70,9 +73,7 @@
      });
     $(document).ready(function(){
         $('ul.tabs').tabs('select_tab', 'tab_id');
+         $('.collapsible').collapsible();
     });
     
     });
-<div class="collapsible-body">
-         <ul id="subMenu"></ul>
-        </div>

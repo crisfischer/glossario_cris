@@ -51,15 +51,11 @@
          <ul id="menu_videoArquitetura"></ul>
         </div>
       </li>
-      <li  class="classifica"><a class="collapsible-header waves-effect waves-teal">Psicologia</a>
-        <div class="collapsible-body">
-        <ul id="menu_videoPsicologia"></ul>
-         <ul>
-            <li><a  src="coluna_sinal.mp4">Coluna</a></li>
-            <li><a  id="corpo" src="janela_sinal.mp4">Janela</a></li>
-          </ul> 
-        </div>
-      </li>
+          <li  class="classifica"><a class="collapsible-header waves-effect waves-teal">Psicologia</a>
+            <div class="collapsible-body">
+               <ul id="menu_videoPsicologia"></ul>
+            </div>
+          </li>
       </ul>
     </li>
   </ul>
@@ -93,6 +89,12 @@
           $("#listas").append(<li class="'menu_'+areas[j]['area']+"><a class="collapsible-header waves-effect waves-teal">"+areas[j]['area']+"</a></li>)
         };   
     };        
+
+
+                        "<div class='collapsible-body'><ul><li id='menu_video"+
+                        videos[i]['value']+
+                        "' ><a  href='#'> "+videos[i]['value']+" </a></li></ul></div>");
+    
  </body>
 
 
