@@ -58,10 +58,8 @@
                      $("#menu_"+areas[j].replace(' ',"_")).append("<li><a id='menu_video"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>")
                      $("#menu_video"+videos[i]['value']+"").click({id:i}, trocaVideo);
                  }
-             
              }
              $("#menu").append("</ul></div></li>");
-
     }
     function trocaVideo(event) {
         $("#video_play_sinal").attr("src","videos/" + videos[event.data.id]["videoSinal"]);
