@@ -26,28 +26,26 @@ h1 {
     background-color: #e0e0e0;
     font-family: "Times New Roman", Georgia, Serif;
 }
-#listas{
-  position: relative;
-  top:120px;
-}
 i{
   position:absolute;
   z-index:3;
-  top:30px;
+  top:20px;
+  right: 0%;
+  
 }
 #nav-mobile li.search {
-  position: relative;
-  top: 120px;
+  position: absolute;
+  top: 180px;
   margin-top: 1px;
   padding: 1px 0 0 0;
-  z-index: 2;
+  z-index: 10px;
 }
-#nav-mobile li.menuAreas {
+#menuAreas {
   position: relative;
   margin-top: 5px;
   padding: 1px 0 0 0;
   z-index: 5;
-  top: 150px;
+  top: 190px;
 }
 .container{  
   width:420px;
@@ -78,7 +76,6 @@ i{
   height:450px;
   top:20px;
   left: 0;
-  
 }
 #video_play_conceito{
   width:465px;
