@@ -10,8 +10,8 @@ h1 {
 #divBusca img{
   float:right;
 }
-#rodape{
-   float:center;
+  .logo{
+    top:150px;
   }
    article {
     padding-bottom: 30px; 
@@ -38,7 +38,7 @@ i{
 }
 #nav-mobile li.search {
   position: absolute;
-  top: 180px;
+  top: 150px;
   margin-top: 1px;
   padding: 1px 0 0 0;
   z-index: 10px;
@@ -101,6 +101,15 @@ margin-top: 50px;
 border-top: 2px solid #0F8593;
 }
 #h1_{
-   text-align: center; 
-  color:#000080;
+ text-align: center; 
+ color:#000080;
+ font-family: "Times New Roman", Georgia, Serif;
+ font-size: 50px;
+ padding: 1px;
+}
+#textoProjeto{
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 20px;
+  padding: 1px;
 }
