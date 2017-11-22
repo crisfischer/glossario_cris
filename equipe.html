@@ -1,6 +1,6 @@
- <!DOCTYPE html>
- <html>
- <head>
+<!DOCTYPE html>
+<html >
+  <head>
     <meta charset="UTF-8">
         <script type="text/javascript" src="jquery-3.2.1.js"></script>
         <script type="text/javascript" src="global.js"></script>
@@ -13,38 +13,72 @@
       <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
- <body>
-	<div id="corpo" style="border: 1px solid  #d1d1d1; padding-left: 25px; padding-right: 25px; margin-top: 50px; border-top: 2px solid #0F8593;">
+  <body>
+  <div class="row">
+  <div class="col s0">
+    <ul id="nav-mobile" class="side-nav fixed" style="transform: translateX(0px);">
+    <li class="logo"><a id="logo-container" class="brand-logo"><img id="front-page-logo" type="image/svg+xml" width="200" height="50" style="position: absolute; top:50px;" src="estacio-logo-faculdade.png" > 
+    </img></a></li>
+  <li class="search">
+  <div class="search-wrapper ">
+      <i class="material-icons">search</i>
+      <div class="search-results"></div>
+      <input id="search"/>
+    </div>
+  </li>
+  <li id="menuAreas" >
+    <ul id="menu" class="collapsible collapsible-accordion">
+    </ul>
+  </li>
+    </ul>
+    </li>
+    </ul>  
+    </div>
+  <div class="col s12">                    
+    <nav>
+      <div class="nav-wrapper    blue darken-2" >
+      <a href="#" class="brand-logo center">Glossário: Em língua brasileira de sinais - LIBRAS</a>
+        <ul id="nav-mobile" class="right">
+          <li><a href="/home/cristiane/cristiane/glossario_cris/projeto.html">Projeto</a></li>
+          <li><a href="/home/cristiane/cristiane/glossario_cris/equipe.html">Equipe</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+      </div>
+      <div id="corpo">
 		<h1 id="h1_">Equipe</h1>
-		<div id="textoProjeto" class="card-panel  blue lighten-1">
-		<ul class="collapsible" data-collapsible="accordion">
+		<div id="textoProjeto" class="card-panel  blue lighten-4">
+		<ul  class="collapsible" data-collapsible="accordion">
 			<li>
-			<div class="collapsible-header">Professor Tradutor/Intérprete de Libras Estácio/IFSC Especialista e Msª</div>
+			<div class="collapsible-header" style=" position: relative;
+  text-align: center;">Professor Tradutor/Intérprete de Libras Estácio/IFSC Especialista e Msª</div>
 			<div class="collapsible-body"><span>Adakciel Tiago Martins Braz <br>Paula Cecilia Novaes Santos da Silva
 			<br>Ana Paula Jung</span></div>
 			</li>
-			<li>
-			<div class="collapsible-header">Suportes Técnicos Editor de Imagem e Cinegrafista UFSC</div>
-			<div class="collapsible-body"><span>Ramon Miranda <br>David Cesar Pinto da Silva</span></div>
-			</li>
-			<li>
-			<div class="collapsible-header">Docentes das Disciplinas (Estácio)</div>
-			<div class="collapsible-body"><span>Rafael Dall'Agnol<br>Márcia Maria Gil Ramos<br>Susane Zanatta<br>
-			Janine Pacheco da Luz<br>Renata Zimmer<br>Eduardo Tonelle Largura<br>Fabio Alberti<br>Gabriel Baú<br>
-			Maria Cristina Pamplona da Silva</span></div>
-			</li>
-			<li>
-			<div class="collapsible-header">Prof. Msª. Dr°.ouvintes/surdos UFSC</div>
-			<div class="collapsible-body"><span>Deonísio Schmitt<br>Juliana TascaLohn<br>Marianne RossiStumpf<br>
-			Janine de Oliveira (Professora Dra/Intérprete)</span></div>
-			</li>
+				<li>
+				<div class="collapsible-header">Suportes Técnicos Editor de Imagem e Cinegrafista UFSC</div>
+				<div class="collapsible-body"><span>Ramon Miranda <br>David Cesar Pinto da Silva</span></div>
+				</li>
+					<li>
+					<div class="collapsible-header">Docentes das Disciplinas (Estácio)</div>
+					<div class="collapsible-body"><span>Rafael Dall'Agnol<br>Márcia Maria Gil Ramos<br>Susane Zanatta<br>
+					Janine Pacheco da Luz<br>Renata Zimmer<br>Eduardo Tonelle Largura<br>Fabio Alberti<br>Gabriel Baú<br>
+					Maria Cristina Pamplona da Silva</span></div>
+					</li>
+				<li>
+				<div class="collapsible-header">Prof. Msª. Dr°.ouvintes/surdos UFSC</div>
+				<div class="collapsible-body"><span>Deonísio Schmitt<br>Juliana TascaLohn<br>Marianne RossiStumpf<br>
+				Janine de Oliveira (Professora Dra/Intérprete)</span></div>
+				</li>
 			<li>
 			<div class="collapsible-header">Acadêmicos Estácio(Gestão-RH, Direito e Redes)</div>
 			<div class="collapsible-body"><span>Sabrina Roberta Kurtz Cunha<br>Cibele Elias Correa<br>Denise RegertMocellin<br>GuilhermeGoulart dos Santos<br>Kamila de Oliveira<br>
 			Guilherme Jorge Silva Rodrigues</span></div>
 			</li>
-			
 		</ul>
 	</div>
- </body>
- </html>
+  <footer class="brand-logo center"> <p><img src=" logolibras.png" alt="Logo libras" title="Logo libras" width="40" height="35"  />&nbsp; &copy; Copyright 2017  Glossário.Libras<p>
+  </footer>
+ </body> 
+</html>

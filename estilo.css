@@ -94,23 +94,42 @@ i{
   font-size: 20px;
   padding: 1px;
 }
-#corpo{
-border: 1px solid  #000080;
-padding-left: 25px;
-padding-right: 25px;
-margin-top: 50px;
-border-top: 2px solid #0F8593;
-}
+
 #h1_{
+  position: relative;
  text-align: center; 
  color:#000080;
  font-family: "Times New Roman", Georgia, Serif;
  font-size: 50px;
  padding: 1px;
+ right: 0%;
+ left: 5%;
 }
 #textoProjeto{
+  left: 35%;
+  right: 150%;
+  padding: 1px;
+}
+#texto{
+  position: relative;
   text-align: center;
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 20px;
   padding: 1px;
+  left: 5%;
+  right: 50%;
+}
+#equipe{
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    margin: .5rem 0 1rem 0;
+}
+.collapsible{
+  position: relative;
+  text-align: center;
+}
+.collapsible-header{
+  position: relative;
+  text-align: center;
 }
