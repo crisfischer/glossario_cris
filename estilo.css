@@ -10,8 +10,9 @@ h1 {
 #divBusca img{
   float:right;
 }
-  .logo{
-    top:150px;
+  #front-page-logo{
+    position: absolute;
+    top:50px;"
   }
    article {
     padding-bottom: 30px; 
@@ -59,7 +60,7 @@ i{
   top:100px;
 }
 #tabs-swipe-demo{
-  border: 2px solid #eeeeee;
+  
   top:70px;
 }
 #test-swipe-1{

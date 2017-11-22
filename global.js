@@ -81,3 +81,6 @@
     $(document).ready(function(){
     $('.collapsible').collapsible();
   });
+    $(function(){
+         $('#lnk').click();
+    });
