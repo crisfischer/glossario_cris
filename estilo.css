@@ -1,8 +1,5 @@
 
-h1 {
-  text-align: center; 
-  color:#800080;
-}
+
 #videos{
   text-align: center; 
   color:#4B0082;
@@ -32,10 +29,17 @@ i{
   z-index:3;
   top:20px;
   right: 0%;
-
 }
 .search-results{
-  left: 35%;
+  left: 55%;
+}
+#search{
+  
+  width: 250px;
+  right: 150%;
+}
+.search-wrapper {
+  right: 30%;
 }
 #nav-mobile li.search {
   position: absolute;
@@ -46,8 +50,9 @@ i{
 }
 #menuAreas {
   position: relative;
+  border: 10px;
   margin-top: 5px;
-  padding: 1px 0 0 0;
+  padding: 5px 0 0 0;
   z-index: 5;
   top: 190px;
 }
@@ -57,11 +62,20 @@ i{
   position: absolute;
   left: 35%;
   right: 50%;
-  top:100px;
+  top:55px;
 }
 #tabs-swipe-demo{
-  
-  top:70px;
+    top:89px;
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    border-top: 2px solid #e0e0e0;
+    border-left: : 2px solid #e0e0e0;
+    border- right: 2px solid #e0e0e0;
+    height: 3rem;
+    width: 99%;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 0;
 }
 #test-swipe-1{
   width:487px;
@@ -94,42 +108,46 @@ i{
   font-size: 20px;
   padding: 1px;
 }
-
 #h1_{
-  position: relative;
- text-align: center; 
- color:#000080;
+ position: relative;
+ text-align: center;
  font-family: "Times New Roman", Georgia, Serif;
- font-size: 50px;
+ font-size: 40px;
  padding: 1px;
  right: 0%;
  left: 5%;
+ color: #0d47a1;
 }
 #textoProjeto{
-  left: 35%;
-  right: 150%;
+  left: 31%;
+  right: 0%;
+  width:700px;
   padding: 1px;
+  font-size: 20px;
+  padding: 1px;
+  position: absolute;
+  text-align: center;
 }
 #texto{
-  position: relative;
-  text-align: center;
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 20px;
   padding: 1px;
-  left: 5%;
-  right: 50%;
-}
-#equipe{
-    border-top: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    margin: .5rem 0 1rem 0;
 }
 .collapsible{
   position: relative;
   text-align: center;
+  box-sizing: inherit;
 }
 .collapsible-header{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
   position: relative;
   text-align: center;
+  line-height: 1.5;
+  padding: 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
 }
