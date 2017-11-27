@@ -52,7 +52,6 @@
     var areas = ['Letras Libras','Arquitetura','Psicologia'];
     for(var j=0;j<areas.length;j++){
         $("#menu").append("<li><a class='collapsible-header waves-effect waves-teal'>"+areas[j]+"</a><div class='collapsible-body' ><ul  id='menu_"+areas[j].replace(' ',"_")+"'>");
-           
             for(var i=0;i<videos.length;i++){
                  if(videos[i]['area'] == areas[j]){
                      $("#menu_"+areas[j].replace(' ',"_")).append("<li><a id='menu_video"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>")
@@ -80,3 +79,4 @@
     $(document).ready(function(){
     $('.collapsible').collapsible();
   });
+    
