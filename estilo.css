@@ -1,27 +1,7 @@
-
-
-#videos{
-  text-align: center; 
-  color:#4B0082;
-}
-#divBusca img{
-  float:right;
-}
-  #front-page-logo{
-    position: absolute;
-    top:50px;
-    width:150px; 
-    height:110px;
-    position: absolute;
-     top:50px;
-  }
-   article {
-    padding-bottom: 30px; 
-    width: 900px; 
-    margin: 0 0 60px; 
-}
-  footer {
-    position: absolute; 
+footer {
+    margin: 0;
+    position:absolute; 
+    min-height: 60px;
     bottom: 0px; 
     width: 80%; 
     height: 60px; 
@@ -30,6 +10,32 @@
     background-color: #e0e0e0;
     font-family: "Times New Roman", Georgia, Serif;
 }
+#videos{
+  text-align: center; 
+  color:#4B0082;
+}
+#divBusca img{
+  float:right;
+}
+  #imgDireita{
+    float:left;
+    width:125px; 
+    height:109px;
+    top: 5px;
+    margin-top: 20px;
+  }
+  #imgEsquerda{
+    float:right;
+    width:111px; 
+    height:115px;
+    margin-top: 20px
+  }
+   article {
+    padding-bottom: 30px; 
+    width: 900px; 
+    margin: 0 0 60px; 
+}
+
 i{
   position:absolute;
   z-index:3;
@@ -40,7 +46,6 @@ i{
   left: 55%;
 }
 #search{
-  
   width: 250px;
   right: 150%;
 }
@@ -55,12 +60,12 @@ i{
   z-index: 10px;
 }
 #menuAreas {
-  position: relative;
+  position: absolute;
   border: 10px;
   margin-top: 5px;
   padding: 5px 0 0 0;
   z-index: 5;
-  top: 190px;
+  top: 220px;
 }
 .container{  
   width:420px;
