@@ -67,7 +67,6 @@
         $("#video_play_conceito")[0].play();
         $("#nomes").html("<div id='"+videos[event.data.id]['value']+"' href='#'> "+videos[event.data.id]['value']+"</div>");
     };
-    
     $(function(){
         $(".button-collapse").sideNav();
      });

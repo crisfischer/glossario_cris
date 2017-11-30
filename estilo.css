@@ -21,14 +21,15 @@ footer {
     float:left;
     width:125px; 
     height:109px;
-    top: 5px;
+    top: 15px;
     margin-top: 20px;
   }
   #imgEsquerda{
     float:right;
-    width:111px; 
+    width:109px; 
     height:115px;
-    margin-top: 20px
+    top: 15px;
+    margin-top: 50px;
   }
    article {
     padding-bottom: 30px; 
@@ -66,7 +67,9 @@ i{
   padding: 5px 0 0 0;
   z-index: 5;
   top: 220px;
+  width: 200px;
 }
+
 .container{  
   width:420px;
   height:700px;
