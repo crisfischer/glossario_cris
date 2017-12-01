@@ -17,26 +17,18 @@ footer {
 #divBusca img{
   float:right;
 }
-  #imgDireita{
-    float:left;
-    width:125px; 
-    height:109px;
-    top: 15px;
-    margin-top: 20px;
   }
-  #imgEsquerda{
-    float:right;
-    width:109px; 
-    height:115px;
-    top: 15px;
-    margin-top: 50px;
+#imgEsquerda{
+  float:right;
+  width:109px; 
+  height:115px;
+  top: 50px;
   }
-   article {
-    padding-bottom: 30px; 
-    width: 900px; 
-    margin: 0 0 60px; 
+article {
+  padding-bottom: 30px; 
+  width: 900px; 
+  margin: 0 0 60px; 
 }
-
 i{
   position:absolute;
   z-index:3;
