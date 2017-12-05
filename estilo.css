@@ -14,15 +14,19 @@ footer {
   text-align: center; 
   color:#4B0082;
 }
-#divBusca img{
-  float:right;
-}
-  }
 #imgEsquerda{
   float:right;
-  width:109px; 
+  width:125px; 
   height:115px;
   top: 50px;
+  margin-top: 0px;
+  }
+#imgDireita{
+  float:left;
+  width:110px; 
+  height:115px;
+  top: 50px;
+  margin-top: 40px;
   }
 article {
   padding-bottom: 30px; 
