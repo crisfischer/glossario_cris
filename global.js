@@ -78,10 +78,8 @@
     $(document).ready(function(){
     $('.collapsible').collapsible();
   }); 
-   $(document).ready(function(){
+   $(document).ready(function(home) {
+    return 'a[href="#' + home + '"]';
+  
     $('.scrollspy').scrollSpy();
   }); 
-
-    
-   
-

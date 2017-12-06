@@ -19,7 +19,7 @@ footer {
   width:125px; 
   height:115px;
   top: 50px;
-  margin-top: 50px;
+  margin-top: 5px;
   }
 #imgDireita{
   float:left;
@@ -152,7 +152,6 @@ i{
   margin-top: 1000px;
   font-family: "Times New Roman", Georgia, Serif;
 }
-
 .collapsible{
   position: relative;
   text-align: center;
@@ -170,9 +169,4 @@ i{
   padding: 1rem;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
-}
-.table-of-contents a.active {
-    font-weight: 500;
-    padding-left: 18px;
-    border-left: 2px solid #ee6e73;
 }
