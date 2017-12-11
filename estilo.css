@@ -74,9 +74,6 @@ i{
   right: 50%;
   top:55px;
 }
-#texto{
-
-}
 #tabs-swipe-demo{
     top:89px;
     border: none;
@@ -122,16 +119,7 @@ i{
   padding: 1px;
   right: 50%;
 }
-#h1_{
- position: relative;
- text-align: center;
- font-family: "Times New Roman", Georgia, Serif;
- font-size: 40px;
- padding: 1px;
- right: 0%;
- left: 5%;
- color: #0d47a1;
-}
+
 #textoProjeto{
   left: 31%;
   right: 0%;
@@ -174,15 +162,7 @@ i{
   background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
-#h2{
-   left: 31%;
-  right: 0%;
-  width:700px;
-  padding: 1px;
-  font-size: 20px;
-  padding: 1px;
-  position: absolute;
-  text-align: center;
-  margin-top: 600px;
-  font-family: "Times New Roman", Georgia, Serif;
+.margin-top__small{
+  margin-top: 10px;
+  position: relative;
 }
