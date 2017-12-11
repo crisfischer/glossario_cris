@@ -1,4 +1,5 @@
-    $(document).ready(function(){
+$(document).ready(function(){
+     $('.scrollspy').scrollSpy();
     var videos = [
         {
         value: "Antiderrapante",
@@ -69,17 +70,8 @@
     };
     $(function(){
         $(".button-collapse").sideNav();
-     });
-    $(document).ready(function(){
-        $('ul.tabs').tabs('select_tab', 'tab_id');
-         $('.collapsible').collapsible();
     });
-    });
-    $(document).ready(function(){
+    $('ul.tabs').tabs('select_tab', 'tab_id');
     $('.collapsible').collapsible();
-  }); 
-   $(document).ready(function(home) {
-    return 'a[href="#' + home + '"]';
-  
-    $('.scrollspy').scrollSpy();
+   
   }); 
