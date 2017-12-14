@@ -66,7 +66,7 @@ $(document).ready(function(){
         $("#video_play_sinal")[0].play();
         $("#video_play_conceito").attr("src","videos/" + videos[event.data.id]["videoConceito"]);
         $("#video_play_conceito")[0].play();
-        $("#nomes").html("<div id='"+videos[event.data.id]['value']+"' href='#'> "+videos[event.data.id]['value']+"</div>");
+        $("#nomes").html("<p>"+videos[event.data.id]['value']+"</p>");
     };
     $(function(){
         $(".button-collapse").sideNav();

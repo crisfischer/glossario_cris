@@ -63,14 +63,14 @@ i{
   padding: 5px 0 0 0;
   z-index: 5;
   top: 220px;
-  width: 200px;
+  width: 140px;
 }
 
 .container{  
   width:420px;
   height:700px;
   position: absolute;
-  left: 35%;
+  left: 20%;
   right: 50%;
   top:55px;
 }
@@ -82,7 +82,7 @@ i{
     border-left: : 2px solid #e0e0e0;
     border- right: 2px solid #e0e0e0;
     height: 3rem;
-    width: 99%;
+    width: 160%;
     font-size: 1rem;
     margin: 0 0 20px 0;
     padding: 0;
@@ -108,16 +108,18 @@ i{
 #video_play_conceito{
   width:465px;
   height:450px;
-  top:20px;
+  top:10px;
   left: 0;
 }
 #nomes{
-  text-align: center; 
+  
   color: #0d47a1;
   font-family: "Times New Roman";
   font-size: 20px;
-  padding: 1px;
-  right: 50%;
+  text-align: center;
+  right:50%;
+  left: 0px;
+  border:  solid 5px #fff;
 }
 
 #textoProjeto{
@@ -149,6 +151,7 @@ i{
   text-align: center;
   box-sizing: inherit;
 }
+
 .collapsible-header{
   display: -webkit-box;
   display: -webkit-flex;
@@ -165,4 +168,15 @@ i{
 .margin-top__small{
   margin-top: 10px;
   position: relative;
+}
+#inicio{
+   right: 10px;
+   left: 180px;
+}
+#equipeGlossario{
+  margin-top: 180px;
+  margin-bottom: 150px;
+}
+#projetoGlossario{
+  margin-top: 280px;
 }
