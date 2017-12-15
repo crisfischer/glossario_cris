@@ -151,7 +151,6 @@ i{
   text-align: center;
   box-sizing: inherit;
 }
-
 .collapsible-header{
   display: -webkit-box;
   display: -webkit-flex;
@@ -165,6 +164,7 @@ i{
   background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
+.waves-effect
 .margin-top__small{
   margin-top: 10px;
   position: relative;
