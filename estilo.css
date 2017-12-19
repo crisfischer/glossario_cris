@@ -26,7 +26,7 @@ footer {
   width:110px; 
   height:115px;
   top: 50px;
-  margin-top: 40px;
+  margin-top: 45px;
   }
 article {
   padding-bottom: 30px; 
@@ -69,10 +69,10 @@ i{
 .container{  
   width:420px;
   height:700px;
-  position: absolute;
-  left: 20%;
+  position: relative;
+  left:10%;
   right: 50%;
-  top:55px;
+  top:15px;
 }
 #tabs-swipe-demo{
     top:89px;
@@ -82,7 +82,7 @@ i{
     border-left: : 2px solid #e0e0e0;
     border- right: 2px solid #e0e0e0;
     height: 3rem;
-    width: 160%;
+    width: 164%;
     font-size: 1rem;
     margin: 0 0 20px 0;
     padding: 0;
@@ -111,8 +111,7 @@ i{
   top:10px;
   left: 0;
 }
-#nomes{
-  
+#nomes{ 
   color: #0d47a1;
   font-family: "Times New Roman";
   font-size: 20px;
@@ -121,9 +120,8 @@ i{
   left: 0px;
   border:  solid 5px #fff;
 }
-
 #textoProjeto{
-  left: 31%;
+  left: 20%;
   right: 0%;
   width:700px;
   padding: 1px;
@@ -131,11 +129,11 @@ i{
   padding: 1px;
   position: absolute;
   text-align: center;
-  margin-top: 600px;
+
   font-family: "Times New Roman", Georgia, Serif;
 }
 #textoEquipe{
-  left: 31%;
+  left: 20%;
   right: 0%;
   width:700px;
   padding: 1px;
@@ -143,7 +141,8 @@ i{
   padding: 1px;
   position: absolute;
   text-align: center;
-  margin-top: 1000px;
+  margin-top: 700px;
+  margin-bottom: 100px;
   font-family: "Times New Roman", Georgia, Serif;
 }
 .collapsible{
@@ -170,13 +169,13 @@ i{
   position: relative;
 }
 #inicio{
-   right: 10px;
-   left: 180px;
+ right: 10px;
+ left: 180px;
 }
 #equipeGlossario{
   margin-top: 180px;
   margin-bottom: 150px;
 }
 #projetoGlossario{
-  margin-top: 280px;
+  margin-top: 380px;
 }
