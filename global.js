@@ -1,56 +1,7 @@
 $(document).ready(function(){
      $('.scrollspy').scrollSpy();
-    var videos = [
-        {
-        value: "Antiderrapante",
-        label: "antiderrapante",
-        desc: "Antiderrapante para não cair",
-        videoSinal: "antiderrapante_sinal.mp4",
-        videoConceito: "azulejo_sinal.mp4",
-        area:"Letras Libras"
-        },
-        {
-        value: "Azulejo",
-        label: "Azulejo",
-        desc: "Azulejo para revestir a casa",
-        videoSinal: "azulejo_sinal.mp4",
-        videoConceito: "antiderrapante_sinal.mp4",
-        area:"Letras Libras"
-        },
-        {
-        value: "Banheira",
-        label: "banheira",
-        desc: "Banheira para tomar banho",
-        videoSinal: "janela_sinal.mp4",
-        videoConceito: "antiderrapante_sinal.mp4",
-        area:"Psicologia"
-        },
-        {
-        value: "Boneca",
-        label: "boneca",
-        desc: "Boneca para brincar",
-        videoSinal: "coluna_sinal.mp4",
-        videoConceito: "banheira_sinal.mp4",
-        area: "Psicologia"
-        },
-        {
-        value: "Coluna",
-        label: "coluna",
-        desc: "Coluna do ser humano",
-        videoSinal: "coluna_sinal.mp4",
-        videoConceito: "janela_sinal.mp4",
-        area: "Arquitetura"
-        },
-        {
-        value: "Janela",
-        label: "janela",
-        desc: "Janela de casa",
-        videoSinal: "janela_sinal.mp4",
-        videoConceito: "coluna_sinal.mp4",
-        area: "Arquitetura"
-        }
-    ];
-    var areas = ['Letras Libras','Arquitetura','Psicologia'];
+    
+    var areas = ['Direito','Gestão_RH ','Redes_de_Computadores'];
     for(var j=0;j<areas.length;j++){
         $("#menu").append("<li><a class='collapsible-header waves-effect waves-teal'>"+areas[j]+"</a><div class='collapsible-body' ><ul  id='menu_"+areas[j].replace(' ',"_")+"'>");
             for(var i=0;i<videos.length;i++){
