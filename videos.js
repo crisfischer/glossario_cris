@@ -92,9 +92,9 @@ var videos = [
         area: "Direito"
         }
         {
-        value: "Janela",
-        label: "janela",
-        desc: "Janela de casa",
+        value: "Foro privilegiado",
+        label: "Foro privilegiado",
+        desc: "Foro privilegiado",
         videoSinal: "12 - SINAL -  Foro privilegiado.MP4",
         videoSinal2:"12- OU SINAL - Foro privilegiado.MP4",
         videoConceito: "12 - CONCEITO - Foro privilegiado.MP4",
@@ -111,12 +111,348 @@ var videos = [
         area: "Direito"
         }
         {
+        value: "Querelante ",
+        label: "Querelante ",
+        desc: "Querelante ",
+        videoSinal: "14 - SINAL - Querelante (soletrar).MP4",
+        videoSinal2:"14 - OU SINAL - Querelante (sinal).MP4",
+        videoConceito: "14 - CONCEITO - Querelante.MP4",
+        videoConceito2:"14 - OU CONCEITO - Querelante.MP4",
+        area: "Direito"
+        }
+        {
+        value: "Querelado",
+        label: "Querelado",
+        desc: "Querelado",
+        videoSinal: "15 - SINAL - Querelado (soletrar).MP4",
+        videoSinal2:"15 - OU SINAL -  Querelado (sinal).MP4",
+        videoConceito: "15 - CONCEITO - Querelado.MP4",
+        area: "Direito"
+        }
+        {
+        value: "Ação Penal Pública",
+        label: "Ação Penal Pública",
+        desc: "Ação Penal Pública",
+        videoSinal: "16 - SINAL - Ação Penal Pública.MP4",
+        videoSinal2:"16 - OU SINAL - Ação Penal Pública.MP4",
+        videoConceito: "16 - CONCEITO - Ação Penal Pública.MP4",
+        area: "Direito"
+        }
+        {
+        value: "Provas",
+        label: "Provas",
+        desc: "Provas",
+        videoSinal: "17 - SINAL -  Provas.MP4",
+        videoConceito: "17 - CONCEITO - Provas.MP4",
+        videoConceito2:"17 - OU CONCEITO - Provas.MP4",
+        area: "Direito"
+        }
+        {
+        value: "Sentença",
+        label: "Sentença",
+        desc: "Sentença",
+        videoSinal: "18 - SINAL  - Sentença.MP4",
+        videoConceito: "18 - CONCEITO - Sentença.MP4",
+        videoConceito2:"18 - OU CONCEITO - Sentença.MP4",
+        area: "Direito"
+        }
+        {
+        value: "Mérito (no processo penal)",
+        label: "Mérito (no processo penal)",
+        desc: "Mérito (no processo penal)",
+        videoSinal: "19 - SINAL - Mérito (no processo penal).MP4",
+        videoConceito: "19 - CONCEITO - Mérito (no processo penal).MP4",
+        videoConceito2:"19 - OU CONCEITO - Mérito (no processo penal).MP4",
+        area: "Direito"
+        }
+        {
+        value: "Pretensão Punitiva do Estado",
+        label: "Pretensão Punitiva do Estado",
+        desc: "Pretensão Punitiva do Estado",
+        videoSinal: "20 - SINAL - Pretensão Punitiva do Estado.MP4",
+        videoSinal2:"20 - OU SINAL -  Pretensão Punitiva do Estado.MP4",
+        videoConceito: "20 - CONCEITO - Pretensão punitiva do Estado.MP4",
+        videoConceito2:"20 - OU CONCEITO - Pretensão punitiva do Estado.MP4",
+        area: "Direito"
+        }
+        {
+        value: "Firewall",
+        label: "Firewall",
+        desc: "Firewall",
+        videoSinal: "1 - SINAL - Firewall.MP4",
+        videoSinal2:"1 - OU SINAL - Firewall.MP4",
+        videoConceito: "1 - CONCEITO - FIREWALL.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Host",
+        label: "Host",
+        desc: "Host",
+        videoSinal: "2 - SINAL - Host.MP4",
+        videoConceito: "",
+        area: "Redes de Computadores"
+        }
+        {
+        value: " IDS (Intrusion Detection System)",
+        label: " IDS (Intrusion Detection System)",
+        desc: " IDS (Intrusion Detection System)",
+        videoSinal: "3 - SINAL - IDS (Intrusion Detection System).MP4",
+        videoConceito:"2 - CONCEITO -  IDS (Intrusion Detection System).mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "IP (Internet Protocol)",
+        label: "IP (Internet Protocol)",
+        desc: "IP (Internet Protocol)",
+        videoSinal:"4 - SINAL - IP (Internet Protocol).MP4",
+        videoSinal2: "4 - OU SINAL - IP (Internet Protocol).MP4",
+        videoConceito:"3 - CONCEITO - IP (Internet Protocol).mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "IPS (Intrusion Prevention System)",
+        label: "IPS (Intrusion Prevention System)",
+        desc: "IPS (Intrusion Prevention System)",
+        videoSinal: "5 - SINAL - IPS (Intrusion Prevention System).MP4",
+        videoConceito2:"4 - CONCEITO - IPS (Instrusion Prevention System).mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "MAC (Message Authentication Code)",
+        label: "MAC (Message Authentication Code)",
+        desc: "MAC (Message Authentication Code)",
+        videoSinal: "8 - SINAL - MAC (Message Authentication Code).MP4",
+        videoConceito: "6 - CONCEITO - MAC (Message Authentication Code).mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "IPSec (IP Security)",
+        label: "IPSec (IP Security)",
+        desc: "IPSec (IP Security)",
+        videoSinal: "6 - SINAL - IPSec (IP Security).MP4",
+        videoConceito: "5 - CONCEITO - IPSec (IP Security).mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Largura de Banda",
+        label: "Largura de Banda",
+        desc: "Largura de Banda",
+        videoSinal: "7 - SINAL - Largura de Banda.MP4",
+        videoConceito: "",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Proxy",
+        label: "Proxy",
+        desc: "Proxy",
+        videoSinal: "11 - SINAL - Proxy.MP4",
+        videoConceito: "8 - CONCEITO - PROXY.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Rede sem fio AD HOC",
+        label: "Rede sem fio AD HOC",
+        desc: "Rede sem fio AD HOC",
+        videoSinal:"13 - SINAL - Rede sem fio Ad Hoc.MP4",
+        videoSinal2: "13 - OU SINAL - Rede sem fio Ad Hoc.MP4",
+        videoConceito: "9 - CONCEITO - REDE SEM FIO AD HOC.mp4",
+        videoConceito2:"9 - OU CONCEITO - REDE SEM FIO AD HOC.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Modelo OSI",
+        label: "Modelo OSI",
+        desc: "Modelo OSI",
+        videoSinal: "9 - SINAL - Modelo OSI.MP4",
+        videoSinal2:"9 - OU SINAL - Modelo OSI.MP4",
+        videoConceito: "",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Protocolo de redes",
+        label: "Protocolo de redes",
+        desc: "Protocolo de redes",
+        videoSinal: "10 - SINAL - Protocolo de redes.MP4",
+        videoConceito: "",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "SSL (Handshake Protocol)",
+        label: "SSL (Handshake Protocol)",
+        desc: "SSL (Handshake Protocol)",
+        videoSinal: "17 - SINAL - SSL (Handshake Protocol).MP4",
+        videoConceito: "12 - CONCEITO -  SSL (Handshake Protocol).mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "QoS (Quality of Service)",
+        label: "QoS (Quality of Service)",
+        desc: "QoS (Quality of Service)",
+        videoSinal: "12 - SINAL - QoS (Quality of Service).MP4",
+        videoConceito: "20 - CONCEITO -  QOS (Quality of Service).mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Host",
+        label: "Host",
+        desc: "Host",
+        videoSinal: "",
+        videoConceito: "13 - CONCEITO -  HOST.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Largura da Banda",
+        label: "Largura da Banda",
+        desc: "Largura da Banda",
+        videoSinal: "",
+        videoConceito: "14 - CONCEITO -  LARGURA DE BANDA.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Roteamento Dinâmico",
+        label: "Roteamento Dinâmico",
+        desc: "Roteamento Dinâmico",
+        videoSinal: "14 - SINAL - Roteamento Dinâmico.MP4",
+        videoSinal2:"14 - OU SINAL - Roteamento Dinâmico.MP4",
+        videoConceito: "19 - CONCEITO -  ROTEAMENTO DINÂMICO.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Protocolo de Redes",
+        label: "Protocolo de Redes",
+        desc: "Protocolo de Redes",
+        videoSinal: "",
+        videoConceito: "15 - CONCEITO -  PROTOCOLO DE REDES.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Modelo OSI",
+        label: "Modelo OSI",
+        desc: "Modelo OSI",
+        videoSinal: "",
+        videoConceito: "16 - CONCEITO - MODELO OSI.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Roteamento estático",
+        label: "Roteamento estático",
+        desc: "Roteamento estático",
+        videoSinal: "15 - SINAL - Roteamento estático.MP4",
+        videoConceito: "18 - CONCEITO -  ROTEAMENTO ESTÁTICO.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Roteamento",
+        label: "Roteamento",
+        desc: "Roteamento",
+        videoSinal: "16 - SINAL - Roteamento.MP4",
+        videoConceito: "17 - CONCEITO -  ROTEAMENTO.mp4",
+        area: "Redes de Computadores"
+        }
+        {
+        value: "Subsistema Treinamento e Desenvolvimento",
+        label: "Subsistema Treinamento e Desenvolvimento",
+        desc: "Subsistema Treinamento e Desenvolvimento",
+        videoSinal: "1 - SINAL - O que é o Subsistema Treinamento e Desenvolvimento.MP4",
+        videoConceito: "1 - Conceito O que é o subsistema Treinamento e Desenvolvimento.MP4",
+        videoConceito2:"1 - OU Conceito O que é o subsistema Treinamento e Desenvolvimento.MP4",
+        area: "Gestão RH"
+        }
+        {
+        value: "LNT",
+        label: "LNT",
+        desc: "LNT",
+        videoSinal: "2 - SINAL - LNT.MP4",
+        videoConceito: "2 - Conceito O que é LNT.MP4",
+        area: "Gestão RH"
+        }
+        {
         value: "Janela",
         label: "janela",
         desc: "Janela de casa",
-        videoSinal: "janela_sinal.mp4",
-        videoConceito: "coluna_sinal.mp4",
-        area: "Direito"
+        videoSinal: "4 - SINAL - O que são necessidades operacionais de Treinamento.MP4",
+        videoConceito: "3 - Conceito O que são necessidades organizacionais de Treinamento.MP4",
+        area: "Gestão RH"
+        }
+        {
+        value: "NOT",
+        label: "NOT",
+        desc: "NOT",
+        videoSinal: "3 - SINAL - NOT.MP4",
+        videoConceito: "",
+        area: "Gestão RH"
+        }
+        {
+        value: "Aprendizagem Mecânica",
+        label: "Aprendizagem Mecânica",
+        desc: "Aprendizagem Mecânica",
+        videoSinal: "6 - SINAL - O que é aprendizagem mecânica.MP4",
+        videoConceito: "6 - Conceito O que é aprendizagem mecânica.MP4",
+        videoConceito2:"6 - CONCEITO - O que é aprendizagem mecânica.MP4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Aprendizagem significativa",
+        label: "Aprendizagem significativa",
+        desc: "Aprendizagem significativa",
+        videoSinal: "7 - SINAL - O que é aprendizagem significativa.MP4",
+        videoConceito: "7 - Conceito O que é aprendizagem significativa.MP4",
+        videoConceito2:"7 - CONCEITO - O que é aprendizagem significativa.MP4",
+        videoConceito3:"7 - OU Conceito O que é aprendizagem significativa.MP4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Andragogia",
+        label: "Andragogia",
+        desc: "Andragogia",
+        videoSinal: "8 - SINAL - O que é Andragogia.MP4",
+        videoConceito: "8 - Conceito O que é Andragogia.MP4",
+        videoConceito2:"8 - CONCEITO - O que é Andragogia.MP4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Pedagogia",
+        label: "Pedagogia",
+        desc: "Pedagogia",
+        videoSinal: "9 - SINAL - O que é Pedagogia.MP4",
+        videoConceito: "9 - Conceito O que é Pedagogia.MP4",
+        videoConceito2:"9 - CONCEITO - O que é Pedagogia.MP4",
+        area: "Gestão RH"
+        }
+        {
+        value: "A Consolidação das Leis do Trabalho CLT",
+        label: "A Consolidação das Leis do Trabalho CLT",
+        desc: "A Consolidação das Leis do Trabalho CLT",
+        videoSinal: "10-1ar - SINAL - A Consolidação das Leis do Trabalho CLT.MP4",
+        videoSinal2:"10-1br - OU SINAL - A Concolidação das Leis do Trabalho CLT.MP4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Convenção Coletiva de Trabalho",
+        label: "Convenção Coletiva de Trabalho",
+        desc: "Convenção Coletiva de Trabalho",
+        videoSinal: "11-2ar - SINAL - Convenção Coletiva de Trabalho.MP4",
+        videoSinal2:"11-2br - OU SINAL - Convenção Coletiva de Trabalho.MP4",
+        videoSinal3:"11-2cr - OU SINAL - Convenção Coletiva de Trabalho.MP4",
+        videoConceito: "",
+        area: "Gestão RH"
+        }
+        {
+        value: "Salário mínimo",
+        label: "Salário mínimo",
+        desc: "Salário mínimo",
+        videoSinal: "12-3ar - SINAL - Salário Mínimo.MP4",
+        videoSinal2:"12-3br - OU SINAL - Salário mínimo.MP4",
+        videoSinal3:"12-3cr - OU SINAL - Salário Mínimo.MP4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Piso Salarial",
+        label: "Piso Salarial",
+        desc: "Piso Salarial",
+        videoSinal: "13-4r - SINAL - Piso Salarial.MP4",
+        videoConceito: "",
+        area: "Gestão RH"
         }
         {
         value: "Janela",
@@ -124,7 +460,24 @@ var videos = [
         desc: "Janela de casa",
         videoSinal: "janela_sinal.mp4",
         videoConceito: "coluna_sinal.mp4",
-        area: "Direito"
+        area: "Gestão RH"
+        }
+        {
+        value: "Vínculo Empregatício",
+        label: "Vínculo Empregatício",
+        desc: "Vínculo Empregatício",
+        videoSinal: "14-5r - SINAL - Vínculo Empregatício.MP4",
+        videoConceito: "",
+        area: "Gestão RH"
+        }
+        {
+        value: "Empregador",
+        label: "Empregador",
+        desc: "Empregador",
+        videoSinal: "15-6ar - SINAL - Empregador.MP4",
+        videoSinal2:"15-6br - OU SINAL - Empregador.MP4",
+        videoConceito: "",
+        area: "Gestão RH"
         }
         {
         value: "Janela",
@@ -132,7 +485,7 @@ var videos = [
         desc: "Janela de casa",
         videoSinal: "janela_sinal.mp4",
         videoConceito: "coluna_sinal.mp4",
-        area: "Direito"
+        area: "Gestão RH"
         }
         {
         value: "Janela",
@@ -140,6 +493,89 @@ var videos = [
         desc: "Janela de casa",
         videoSinal: "janela_sinal.mp4",
         videoConceito: "coluna_sinal.mp4",
-        area: "Direito"
+        area: "Gestão RH"
         }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+        {
+        value: "Janela",
+        label: "janela",
+        desc: "Janela de casa",
+        videoSinal: "janela_sinal.mp4",
+        videoConceito: "coluna_sinal.mp4",
+        area: "Gestão RH"
+        }
+
+
+
     ];
