@@ -19,14 +19,14 @@ footer {
   width:125px; 
   height:115px;
   top: 50px;
-  margin-top: 5px;
+  margin-top: -21px;
   }
 #imgDireita{
   float:left;
   width:110px; 
   height:115px;
   top: 50px;
-  margin-top: 45px;
+  margin-top: 15px;
   }
 article {
   padding-bottom: 30px; 
@@ -145,12 +145,7 @@ i{
   margin-bottom: 100px;
   font-family: "Times New Roman", Georgia, Serif;
 }
-.collapsible{
-  position: relative;
-  text-align: center;
-  box-sizing: inherit;
-}
-.collapsible-header{
+.videosClassifica{
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -162,11 +157,39 @@ i{
   padding: 1rem;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
+  width: 300px;
 }
-.waves-effect
-.margin-top__small{
-  margin-top: 10px;
+.videosAreas  {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
   position: relative;
+  text-align: center;
+  line-height: 1.5;
+  padding: 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  width: 300px;
+  text-align: left;
+}
+.efeitoEquipe {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  line-height: 1.5;
+  padding: 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+ 
+}
+.listaAreas{
+  width: 300px;
 }
 #inicio{
  right: 10px;

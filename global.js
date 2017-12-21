@@ -1,12 +1,12 @@
 $(document).ready(function(){
      $('.scrollspy').scrollSpy();
     
-    var areas = ['Direito','Gestão_RH ','Redes_de_Computadores'];
+    var areas = ['Direito','Gestão RH','Redes de Computadores'];
     for(var j=0;j<areas.length;j++){
-        $("#menu").append("<li><a class='collapsible-header waves-effect waves-teal'>"+areas[j]+"</a><div class='collapsible-body' ><ul  id='menu_"+areas[j].replace(' ',"_")+"'>");
+        $("#menu").append("<li><a class='collapsible-header waves-effect waves-teal videosAreas'>"+areas[j]+"</a><div class='collapsible-body videosClassifica' ><ul  id='menu_"+areas[j].replace(/ /g,"_")+"'>");
             for(var i=0;i<videos.length;i++){
                  if(videos[i]['area'] == areas[j]){
-                     $("#menu_"+areas[j].replace(' ',"_")).append("<li><a id='menu_video"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>")
+                     $("#menu_"+areas[j].replace(/ /g,"_")).append("<li><a id='menu_video"+videos[i]['value']+"' href='#'> "+videos[i]['value']+"</a></li>")
                      $("#menu_video"+videos[i]['value']+"").click({id:i}, trocaVideo);
                  }
              }
@@ -24,5 +24,4 @@ $(document).ready(function(){
     });
     $('ul.tabs').tabs('select_tab', 'tab_id');
     $('.collapsible').collapsible();
-   
   }); 
