@@ -189,7 +189,7 @@ var videos = [
         label: "Host",
         desc: "Host",
         videoSinal: "2-sinal-host.mp4",
-        videoConceito: "",
+        videoConceito: "13-conceito-host.mp4",
         area: "Redes de Computadores"
         },
         {
@@ -290,14 +290,6 @@ var videos = [
         desc: "QoS Quality of Service",
         videoSinal: "12-sinal-qos-quality-of-service.mp4",
         videoConceito: "20-conceito-qos-quality-of-service.mp4",
-        area: "Redes de Computadores"
-        },
-        {
-        value: "host",
-        label: "Host",
-        desc: "Host",
-        videoSinal: "",
-        videoConceito: "13-conceito-host.mp4",
         area: "Redes de Computadores"
         },
         {
